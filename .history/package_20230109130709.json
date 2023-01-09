@@ -1,0 +1,16 @@
+{
+  "name": "meme-creator",
+  "version": "1.0.0",
+  "description": "meme-creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack node_modules/src/js/memes.js --output-filename dist/memes.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+    
+  }
+}
