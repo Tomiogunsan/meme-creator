@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Meme Creator</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Meme Creator</h1>
+    </header>
+
+    <div class="container">
+        <canvas id="canvas" class="box"></canvas>
+        <div class="container__input">
+        <div class="input-section">
+        <label for="avatar">
+            Source Image:
+        </label>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+    </div>
+    <div class="input-section">
+        <label for="input">
+            Top Text:
+        </label>
+        <input type="text" id="top-text">
+    </div>
+    <div class="input-section">
+        <label for="input">
+            Bottom Text:
+        </label>
+        <input type="text" id="bottom-text">
+    </div>
+    <button id='btn' class="download-button">Download</button>
+</div>
+    </div>
+
+    <script src="./src/js/memes.js"></script>
+</body>
+</html>
